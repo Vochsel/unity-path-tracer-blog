@@ -1,0 +1,25 @@
+<div class="post">
+    <div class="header">
+        <div class="title">1 - Initial Progress</div>
+        <div class="date">September 15th</div>
+    </div>
+    <div class="content">
+        <p>
+            Today the literature review for <b>INFT 578</b> was due. I've spent the last three weeks researching path tracers, and the various techniques used in the industry. Many companies such as Disney, Animal Logic, Octane, and more have release a lot of their research publicly which has significantly helped in learning and researching this topic. 
+        </p>
+        <p>
+            My goal for this subject is to create a GPU powered unbiased, physically accurate path tracing renderer for Unity. Seamless integration with Unity will hopefully allow artists to harness the offline rendering benefits of a path tracer and will help empower artists to quickly create high quality, in-game renders. 
+        </p>
+        <p>
+            I am not aiming to create a real time rendering engine for unity, instead I'm hoping to offer artists and easy alternative for rendering in-engine images and animations in a phyiscally accurate and unbiased fashion. This renderer has the potential to expand in the future to support lightmap baking and more, however the scope of this assignment does not accomodate for those features.
+        </p>
+
+        <p>
+            This image below is an in-engine screenshot of the current build of my artefact. The very basics of the path tracer have been implemented in a Compute Shader, and the resulting texture is then displayed in a Unity Editor Window. To create the path tracer, I followed several tutorials to build a foundational knowledge of the process of path tracing. This code created the path tracer in CUDA. From here I adapted the code to work in a Compute Shader (a version of HLSL). My next goal is to work on adapting the path tracer to better integrate with the Unity scene and interface.
+        </p>
+        <div class="image_container">
+            <img src='img/WIP_01.png' width='75%'/>
+            <img src='img/WIP_02.gif' width='75%'/>
+        </div>
+    </div>
+</div>
