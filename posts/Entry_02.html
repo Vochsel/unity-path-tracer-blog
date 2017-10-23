@@ -1,0 +1,22 @@
+<div class="post">
+    <div class="header">
+        <div class="title">2 - Improvements</div>
+        <div class="date">October 13th</div>
+    </div>
+    <div class="content">
+        <h3>Current</h3>
+        <p>
+            Apologies for not making a blog post sooner. Up until the beginning of October, I was flat out working on written assessments and other assignments. On top of this I also did some contract work for two weeks. I'm back on track now for both assignments and have been putting in extra time to ensure I meet all set goals and deadlines.
+        </p>
+        <p>
+            The path tracer has made solid progress. I have begun work on better integration with the Unity scene and will continue adding features. At the moment, I'm working on passing mesh data into the compute shader in structured buffers. This seems to be working well, however I seem to be having some werid transform space problems with the meshes. Where as the spheres are represented accurately in the 3D space, the triangles seem to be locked to the camera. I'm sure this is a problem where either the camera rays or the triangle data has not been converted into the proper transform space, however I'm still yet to solve it. 
+        </p>
+        <p>
+            Other than that, I've got some very basic material color and emission properties being passed into the path tracer and accurately being represented. I'm going to have to implement a rather basic BRDF function for the path tracer due to time restrictions, but hopefully it will be abstracted enough to allow others to implement their own.
+        </p>
+        <h3>Future</h3>
+        <p>
+            From here, I need to properly render triangle meshes, support at least point and directional lights, and improve the UI for setting renderer options such as quality, bounces, resolution, etc.
+        </p>
+    </div>
+</div>

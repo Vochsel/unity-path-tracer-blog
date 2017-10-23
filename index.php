@@ -18,6 +18,9 @@
             </div>
         
             <div id="content">
+                <hr/>
+                    <?php require('posts/Entry_02.html'); ?>
+                <hr/>
                     <?php require('posts/Entry_01.html'); ?>
                 <hr/>
             </div>
